@@ -1,0 +1,57 @@
+id: net.openbve_project.OpenBVE
+runtime: org.freedesktop.Platform
+runtime-version: '25.08'
+sdk: org.freedesktop.Sdk
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.mono6
+command: openbve
+rename-desktop-file: openbve.desktop
+rename-icon: openbve
+
+finish-args:
+  - --share=ipc
+  - --socket=x11
+  - --socket=pulseaudio
+  - --device=dri
+  - --device=input
+
+cleanup:
+  - '*.pdb'
+
+modules:
+  - name: mono
+    buildsystem: simple
+    build-commands:
+      - /usr/lib/sdk/mono6/install.sh
+      - cp -r /usr/lib/sdk/mono6/lib/mono/gac/{Microsoft.CSharp,System.Drawing,System.Windows.Forms,System.Xml.Linq} /app/lib/mono/gac/
+
+  - name: libgdiplus
+    sources:
+      - type: archive
+        url: https://dl.winehq.org/mono/sources/libgdiplus/libgdiplus-6.2.tar.gz
+        sha256: 683adb7d99d03f6ee7985173a206a2243f76632682334ced4cae2fcd20c83bc9
+
+  - name: openbve
+    buildsystem: simple
+    build-options:
+      prepend-path: /usr/lib/sdk/mono6/bin
+    build-commands:
+      - mono nuget.exe restore OpenBVE.sln -Source /run/build/openbve/nuget-sources
+      - msbuild /t:build /p:Configuration=Release OpenBVE.sln
+      - rm -rf bin_release/DevTools
+      - mv bin_release /app/lib/openbve
+      - install -Dm644 -t /app/share/applications debian/openbve.desktop
+      - install -Dm644 -t /app/share/icons/hicolor/128x128/apps debian/openbve.png
+      - install -Dm755 -t /app/bin openbve
+    sources:
+      - type: git
+        url: https://github.com/leezer3/OpenBVE.git
+        tag: 1.13.0.2
+      - type: file
+        url: https://dist.nuget.org/win-x86-commandline/v7.6.0/nuget.exe
+        sha256: 751ee5e79481626a428c1241dc7f94bca2739b32588e669715bc5fb54d8fb8a2
+      - nuget-sources.yml
+      - type: script
+        dest-filename: openbve
+        commands:
+          - mono /app/lib/openbve/OpenBve.exe "$@"
