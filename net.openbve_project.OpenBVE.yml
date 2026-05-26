@@ -12,8 +12,7 @@ finish-args:
   - --share=ipc
   - --socket=x11
   - --socket=pulseaudio
-  - --device=dri
-  - --device=input
+  - --device=all
 
 cleanup:
   - '*.pdb'
