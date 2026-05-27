@@ -5,9 +5,9 @@
   sha512: ed4a36afd58971a07640de2b8e6361f3254a7e6545e1b3e606cffa0770351f0824934bdb75a30c81adf54c6a1131576391bfc72b38519f88eb03a707aebae529
   dest: nuget-sources
 - type: file
-  url: https://api.nuget.org/v3-flatcontainer/bve5_parsing.openbve/1.1.19/bve5_parsing.openbve.1.1.19.nupkg
-  dest-filename: Bve5_Parsing.OpenBVE.1.1.19.nupkg
-  sha512: 19135c794def4517a3b50dc62edeb97ccf2bc1bc463856e9ed7ce5e6100d69d1a1cf27e4898aa1fe4e7fa522c334b42f33e2b70f3c4f131e076a55547a7b1cf8
+  url: https://api.nuget.org/v3-flatcontainer/bve5_parsing.openbve/1.1.20/bve5_parsing.openbve.1.1.20.nupkg
+  dest-filename: Bve5_Parsing.OpenBVE.1.1.20.nupkg
+  sha512: 0dfbc1596d06d26e399a70a419a84b2591906de328f0ec02663ea5ff746bd51075c06975ea18b7df9525552986916a34c821f804d9e8e8038472aa00bcb18c7c
   dest: nuget-sources
 - type: file
   url: https://api.nuget.org/v3-flatcontainer/cs-script.lib/3.30.3/cs-script.lib.3.30.3.nupkg

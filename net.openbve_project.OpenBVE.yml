@@ -41,11 +41,13 @@ modules:
       - mv bin_release /app/lib/openbve
       - install -Dm644 -t /app/share/applications debian/openbve.desktop
       - install -Dm644 -t /app/share/icons/hicolor/128x128/apps debian/openbve.png
+      - install -Dm644 -t /app/share/metainfo net.openbve_project.OpenBVE.metainfo.xml
       - install -Dm755 -t /app/bin openbve
     sources:
       - type: git
         url: https://github.com/leezer3/OpenBVE.git
-        tag: 1.13.0.2
+        tag: 1.13.0.3
+        commit: aca65663123971b2d2d5d49d8e62be8fce225d75
       - type: file
         url: https://dist.nuget.org/win-x86-commandline/v7.6.0/nuget.exe
         sha256: 751ee5e79481626a428c1241dc7f94bca2739b32588e669715bc5fb54d8fb8a2
