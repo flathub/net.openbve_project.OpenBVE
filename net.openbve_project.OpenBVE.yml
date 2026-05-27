@@ -22,7 +22,8 @@ modules:
     buildsystem: simple
     build-commands:
       - /usr/lib/sdk/mono6/install.sh
-      - cp -r /usr/lib/sdk/mono6/lib/mono/gac/{Microsoft.CSharp,System.Drawing,System.Windows.Forms,System.Xml.Linq} /app/lib/mono/gac/
+      - cp -r /usr/lib/sdk/mono6/lib/mono/gac/{Microsoft.CSharp,System.Drawing,System.Windows.Forms,System.Xml.Linq}
+        /app/lib/mono/gac/
 
   - name: libgdiplus
     sources:
@@ -46,8 +47,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/leezer3/OpenBVE.git
-        tag: 1.13.0.3
-        commit: aca65663123971b2d2d5d49d8e62be8fce225d75
+        tag: 1.13.0.2
+        commit: ac6f53fbca61f9716be2245baa30e0a9e626248b
         x-checker-data:
           type: json
           url: https://api.github.com/repos/leezer3/OpenBVE/releases/latest
