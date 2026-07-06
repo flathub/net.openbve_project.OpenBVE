@@ -47,8 +47,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/leezer3/OpenBVE.git
-        tag: 1.13.0.5
-        commit: 7ba99f32485550444c1872b5ef9272fc245d6e35
+        tag: 1.13.0.7
+        commit: c4feaa31d25e04f9a666af422acb3a7412a76d42
         x-checker-data:
           type: json
           url: https://api.github.com/repos/leezer3/OpenBVE/releases/latest
