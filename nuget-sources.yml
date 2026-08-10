@@ -35,6 +35,26 @@
   sha512: 79cb0773d94465924cee4e471d90353d5d8df842c46ab2c572cb15d9b9fb5d0209a1a88d64392995335c5fe54a00d7c3194440b84c95142711bbb685cb5e9552
   dest: nuget-sources
 - type: file
+  url: https://api.nuget.org/v3-flatcontainer/microsoft.bcl.hashcode/6.0.0/microsoft.bcl.hashcode.6.0.0.nupkg
+  dest-filename: Microsoft.Bcl.HashCode.6.0.0.nupkg
+  sha512: 9349972fd40c0bb20de2746e007b8b5b2907f07fe7834e085a61928fbd9aaa5687cedbf203a34d73dd0d8a9b9abf2d62a81c95c22255a080e4347fc895c9df2d
+  dest: nuget-sources
+- type: file
+  url: https://api.nuget.org/v3-flatcontainer/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg
+  dest-filename: Microsoft.NETFramework.ReferenceAssemblies.1.0.3.nupkg
+  sha512: e3b8317b290696a380a32abdd9e75e71ddae68049769beb895024c34089f41262aeddf53e30984330b1293f013e34d854a83223ae1e2afe417186795da8dc148
+  dest: nuget-sources
+- type: file
+  url: https://api.nuget.org/v3-flatcontainer/microsoft.netframework.referenceassemblies.net461/1.0.3/microsoft.netframework.referenceassemblies.net461.1.0.3.nupkg
+  dest-filename: Microsoft.NETFramework.ReferenceAssemblies.net461.1.0.3.nupkg
+  sha512: b717dcc15dab52be03c6bd2bda353adfb0ecc785bd5a8d4fc47239a1324f46c4ac187595d902d2ef90c69bbbc9d9eeec97d04c6599f5ef8feba374833bfa01c6
+  dest: nuget-sources
+- type: file
+  url: https://api.nuget.org/v3-flatcontainer/microsoft.netframework.referenceassemblies.net48/1.0.3/microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg
+  dest-filename: Microsoft.NETFramework.ReferenceAssemblies.net48.1.0.3.nupkg
+  sha512: 5d62a0c9e35a74d71341a215bd007c06b74236b11aafa7e8fdd7b539d41167d1c5cb48dc05268cf08579abae196a6a6c4a70bc0254ec002686654ba8170e3544
+  dest: nuget-sources
+- type: file
   url: https://api.nuget.org/v3-flatcontainer/mono.cecil/0.11.3/mono.cecil.0.11.3.nupkg
   dest-filename: Mono.Cecil.0.11.3.nupkg
   sha512: 4a555e9464c142912d5bc24650136b41d5c37bd784b87ad34c2b7f4c8bfa1a2670c239916f3dc9bbe1138542664bf3003144fbebd3becad2ab7771d41564c0ff
@@ -90,19 +110,19 @@
   sha512: 889c160f9f373238d1f42d2b00011ff3456f376c2a3a1a704d2a3d99d1f2ed4f4a94f70b95fe54c2c1eb280f20b436479b036526abf13d9887e1a4b194a96ad0
   dest: nuget-sources
 - type: file
-  url: https://api.nuget.org/v3-flatcontainer/sharpcompress/0.32.2/sharpcompress.0.32.2.nupkg
-  dest-filename: SharpCompress.0.32.2.nupkg
-  sha512: cd0cd74b68faf0dc159f576d9d37577aa6d0c8c849153a348338d90a3504937295043b66878372f7fc63710180795d65cd6b038b3699fd7765ac6247dc344ad3
+  url: https://api.nuget.org/v3-flatcontainer/sharpcompress/0.50.4/sharpcompress.0.50.4.nupkg
+  dest-filename: SharpCompress.0.50.4.nupkg
+  sha512: 2b5c439b9a96075e0397cc6a50a78aea5bbe169f30f922851011aa2630ee43dc434ba62b3a672c9b6f29aed239f6d14a24992d5992d0c6f61b79dcf4cdb4ade8
   dest: nuget-sources
 - type: file
-  url: https://api.nuget.org/v3-flatcontainer/sharpcompress/0.48.0/sharpcompress.0.48.0.nupkg
-  dest-filename: SharpCompress.0.48.0.nupkg
-  sha512: 2201ce132ebabccae7e586ef137f9327f96d71256ae0469f8d1a5f1b02af44924f7d9febcdcd336f18e6a83357e6b652d4300953f9b5987f71b15edd99a86f35
+  url: https://api.nuget.org/v3-flatcontainer/system.buffers/4.6.1/system.buffers.4.6.1.nupkg
+  dest-filename: System.Buffers.4.6.1.nupkg
+  sha512: aaf7bf745c040b07a14969599a992bae521e0130afa3f1f0da4a3232b515703072e605c042b9f05fca47128aa08fc0e092b5ae596d43ad06c5aa831ba3e16fae
   dest: nuget-sources
 - type: file
-  url: https://api.nuget.org/v3-flatcontainer/system.buffers/4.5.1/system.buffers.4.5.1.nupkg
-  dest-filename: System.Buffers.4.5.1.nupkg
-  sha512: 80da6158e55b9bcf7e0b5e6379b9cf45a632914f037b53c5bf5609576e3cd7821f7861956b73d74470d2d0c2e56dd235a5ef4ca6ffe7e192b820dc2d023aaff2
+  url: https://api.nuget.org/v3-flatcontainer/system.collections.immutable/10.0.10/system.collections.immutable.10.0.10.nupkg
+  dest-filename: System.Collections.Immutable.10.0.10.nupkg
+  sha512: 247d8d6152f719738e608f2aacb40ed84be66ad98b76d5ed33173d005bfefd727be9d813b5278fdd51eea1b8fec43d4558f861c4c674561c85268075b3a0074f
   dest: nuget-sources
 - type: file
   url: https://api.nuget.org/v3-flatcontainer/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg
@@ -110,14 +130,19 @@
   sha512: 589aac4c669701ce7910f1a327294f15788d3ecff1d6df5d9255651e5201c5411c2312286fab111a6f549fb4de864c8414cfaf2a365deeb6f068c1ffce7c353c
   dest: nuget-sources
 - type: file
-  url: https://api.nuget.org/v3-flatcontainer/system.memory/4.5.5/system.memory.4.5.5.nupkg
-  dest-filename: System.Memory.4.5.5.nupkg
-  sha512: e8c8e536c97b94ac3443c940b30dad43cf6e97dc7a8c3d989371048fe74e168606384f5e0143bdc0d86f7783bf9fdee8417964cb3a8a5d752713e90b125172dc
+  url: https://api.nuget.org/v3-flatcontainer/system.formats.nrbf/10.0.10/system.formats.nrbf.10.0.10.nupkg
+  dest-filename: System.Formats.Nrbf.10.0.10.nupkg
+  sha512: fa8f8c7fe4201e19eca88540c5d9f51acab5d8aa90dcc324fcf2050703ed8d07a14c2c45058fb84e372f934658d9dae220f641691e548e10e34d6f5edfd0902e
   dest: nuget-sources
 - type: file
-  url: https://api.nuget.org/v3-flatcontainer/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg
-  dest-filename: System.Numerics.Vectors.4.5.0.nupkg
-  sha512: 9c04ec0530f608aaf801837a791b33857e2ca6d2265a6049c01fd4e972825967e709cad3070f174829b7400f608e9a641d3afc3a45d4636d4c47dd43dd0657b3
+  url: https://api.nuget.org/v3-flatcontainer/system.memory/4.6.3/system.memory.4.6.3.nupkg
+  dest-filename: System.Memory.4.6.3.nupkg
+  sha512: 35770d6255a85dee5ccfdb1bf07ba8eb1d9d099558921c0ab60134d27fcca08f15e1923feffb7e108e5b3a14059597c58e3a8cf3e53aa6b8d4fda011b7b1ffb4
+  dest: nuget-sources
+- type: file
+  url: https://api.nuget.org/v3-flatcontainer/system.numerics.vectors/4.6.1/system.numerics.vectors.4.6.1.nupkg
+  dest-filename: System.Numerics.Vectors.4.6.1.nupkg
+  sha512: feb92fa547943e5098ff6a985502a252c8f920a69765ccb6f924001807de980772105e408088183853524cc5835e8d3d256157f4707ec15d720b28b63308b74c
   dest: nuget-sources
 - type: file
   url: https://api.nuget.org/v3-flatcontainer/system.reactive/6.0.1/system.reactive.6.0.1.nupkg
@@ -125,14 +150,19 @@
   sha512: 5b7af637b4a167f66a29cb96f3339bc8bb1f1cd279b5cb5ff9579d8a56e8e6747c6231580a83e8c905999e82586c01fde00f2f4f3826cb0c11d2933a074977f4
   dest: nuget-sources
 - type: file
-  url: https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg
-  dest-filename: System.Runtime.CompilerServices.Unsafe.6.0.0.nupkg
-  sha512: d4057301be4ec4936f24b9ce003b5ec4d99681ab6d9b65d5393dd38d04cdec37784aaa12c1a8b50ac3767ed878dae425749490773fec01e734f93cf1045822b3
+  url: https://api.nuget.org/v3-flatcontainer/system.reflection.metadata/10.0.10/system.reflection.metadata.10.0.10.nupkg
+  dest-filename: System.Reflection.Metadata.10.0.10.nupkg
+  sha512: 60ba25f09a5156b249f8c7b54509665f3b4d3bbf8efb0329fff87f23784c40ed7b56d7c4ae812c1f192070091d0412f17acef4b16fe3df54ebc0de5e2db909ef
   dest: nuget-sources
 - type: file
-  url: https://api.nuget.org/v3-flatcontainer/system.text.encoding.codepages/6.0.0/system.text.encoding.codepages.6.0.0.nupkg
-  dest-filename: System.Text.Encoding.CodePages.6.0.0.nupkg
-  sha512: ec873a95ec517de2c5a5364ada30974ddd5e0fafef2ad2517609a1900b5059d35757536fd073805001fa68d5b56a3d4647010a96c9eb233b1d172a3b45fbe4a9
+  url: https://api.nuget.org/v3-flatcontainer/system.resources.extensions/4.6.0/system.resources.extensions.4.6.0.nupkg
+  dest-filename: System.Resources.Extensions.4.6.0.nupkg
+  sha512: 7d1e3e6a84e7f7e4bdd996079cdbee765fff91c445ac2a6d204258836b2d7ef66ddc02f5d1b1081c3bddbf4e8ade8048448f48f33a4a57a24b51094edfb58431
+  dest: nuget-sources
+- type: file
+  url: https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/6.1.2/system.runtime.compilerservices.unsafe.6.1.2.nupkg
+  dest-filename: System.Runtime.CompilerServices.Unsafe.6.1.2.nupkg
+  sha512: b76697589641900911ad33a7c37d4e0442ca1154830f962f0b73b975768716c47aebf9d14ca9b5cb722ae8dc05239bb92252ab5987dd6a7eba57e18a2a463c85
   dest: nuget-sources
 - type: file
   url: https://api.nuget.org/v3-flatcontainer/system.text.encoding.codepages/8.0.0/system.text.encoding.codepages.8.0.0.nupkg
@@ -145,9 +175,9 @@
   sha512: 68052086e77d3c7198737a3da163d67740b7c44f93250c39659b3bf21b6547a9abf64cbf40481f5c78f24361af3aaf47d52d188b371554a0928a7f7665c1fc14
   dest: nuget-sources
 - type: file
-  url: https://api.nuget.org/v3-flatcontainer/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg
-  dest-filename: System.ValueTuple.4.5.0.nupkg
-  sha512: fa00ebb5045d12c51274f64411c551981beceb1266a8606a4731063109b95ea1f15939197bf3d2ba899db61e593dc39bfce876908bba34286823525093ae3d8e
+  url: https://api.nuget.org/v3-flatcontainer/system.valuetuple/4.6.2/system.valuetuple.4.6.2.nupkg
+  dest-filename: System.ValueTuple.4.6.2.nupkg
+  sha512: b0c7e728801ea4439abf8e220944001025572c0d7f4d5342dfb83e9b1a3af74fc11621f36ee1cf16f77227a31d103e022fb8aae8dee49656cc5158b9fe758988
   dest: nuget-sources
 - type: file
   url: https://api.nuget.org/v3-flatcontainer/ude.netstandard/1.2.0/ude.netstandard.1.2.0.nupkg
