@@ -55,14 +55,39 @@
   sha512: 5d62a0c9e35a74d71341a215bd007c06b74236b11aafa7e8fdd7b539d41167d1c5cb48dc05268cf08579abae196a6a6c4a70bc0254ec002686654ba8170e3544
   dest: nuget-sources
 - type: file
+  url: https://api.nuget.org/v3-flatcontainer/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg
+  dest-filename: Microsoft.Win32.Registry.4.7.0.nupkg
+  sha512: fda3dffb486bd665557e603db84d231722943aa333a4408a4fc0fd2bcb16e829883534b69d0d68fbc35b559be9f9b919725e9dbc5fc8ee2aaa163546afd46e03
+  dest: nuget-sources
+- type: file
   url: https://api.nuget.org/v3-flatcontainer/mono.cecil/0.11.3/mono.cecil.0.11.3.nupkg
   dest-filename: Mono.Cecil.0.11.3.nupkg
   sha512: 4a555e9464c142912d5bc24650136b41d5c37bd784b87ad34c2b7f4c8bfa1a2670c239916f3dc9bbe1138542664bf3003144fbebd3becad2ab7771d41564c0ff
   dest: nuget-sources
 - type: file
-  url: https://api.nuget.org/v3-flatcontainer/naudio/1.10.0/naudio.1.10.0.nupkg
-  dest-filename: NAudio.1.10.0.nupkg
-  sha512: a4d0cf699bc475758a7740d34d4f640444032527876316fe7098870164c00aac64cb77b3de0a8db0840752db3ff2cfb5cfd6e3dbeda7e7fdad0aa4ab865e8621
+  url: https://api.nuget.org/v3-flatcontainer/naudio/2.0.0/naudio.2.0.0.nupkg
+  dest-filename: NAudio.2.0.0.nupkg
+  sha512: 97710ef219c7b6ed417b7887a0cabf6ea89cc9efdc6fc1cee701040cc8292d6f3a8a6118dbc5bd04ec3d3dc53ada6338f241f7349f252ba743b44231e311e75d
+  dest: nuget-sources
+- type: file
+  url: https://api.nuget.org/v3-flatcontainer/naudio.asio/2.0.0/naudio.asio.2.0.0.nupkg
+  dest-filename: NAudio.Asio.2.0.0.nupkg
+  sha512: a36bd6a11f601d76a3b8b26b9af81f5cdaafb1579714f59bd0d073824e3f179c3e1061e9d4bf4271b1b115a0782c08b7a8c6673607a206b64ab69eec4e77862f
+  dest: nuget-sources
+- type: file
+  url: https://api.nuget.org/v3-flatcontainer/naudio.core/2.0.0/naudio.core.2.0.0.nupkg
+  dest-filename: NAudio.Core.2.0.0.nupkg
+  sha512: 01d36239dc9f35f48bd6b313b749a80dd7d4dcfd194d71e14b2aa138048a69ad04c17266a00db2714546bddef2f855759f7e4b8c51c231ae014dffb536a868c0
+  dest: nuget-sources
+- type: file
+  url: https://api.nuget.org/v3-flatcontainer/naudio.core/2.3.0/naudio.core.2.3.0.nupkg
+  dest-filename: NAudio.Core.2.3.0.nupkg
+  sha512: b374dce05e9928b0a6ba6a73458b598395e3bd43553ae8c7e82a5572b275924fbaae38892ed93363316628895437dd1ed2c0ca59f819ba47678e16e3bbdc8256
+  dest: nuget-sources
+- type: file
+  url: https://api.nuget.org/v3-flatcontainer/naudio.midi/2.0.0/naudio.midi.2.0.0.nupkg
+  dest-filename: NAudio.Midi.2.0.0.nupkg
+  sha512: f279869f4c0d45b518a66fcee0f937d4becc446d59ba5d1b33405150c8a29fda34ecd63eb0308765dc061f4fe91244a05c0661c1a25836d25137c44c5a23ec21
   dest: nuget-sources
 - type: file
   url: https://api.nuget.org/v3-flatcontainer/naudio.vorbis/1.2.0/naudio.vorbis.1.2.0.nupkg
@@ -70,19 +95,39 @@
   sha512: f214c6899038cbb717e1e0f906320a31da7d6d94afdb9210d68fd428edbfe06772c075e6d431135a991c3cd44c368eab1c8b62501bf06e5c609a2c7e8d5d7c55
   dest: nuget-sources
 - type: file
-  url: https://api.nuget.org/v3-flatcontainer/nlayer/1.12.0/nlayer.1.12.0.nupkg
-  dest-filename: NLayer.1.12.0.nupkg
-  sha512: 6b8e6e15d424c6de7631acedda1955289cc6731ef6692044637c15c2777600f514a180a2fece784b54f249976829d1f166f47aff51c3e671e7aa6ada5b24aeed
+  url: https://api.nuget.org/v3-flatcontainer/naudio.vorbis.latest/1.6.0/naudio.vorbis.latest.1.6.0.nupkg
+  dest-filename: NAudio.Vorbis.Latest.1.6.0.nupkg
+  sha512: bae7805edd66f763a72ed606bc6af9b43eac2f504e17b3f88313500a7ad63dc341826f854296c5b193785871bb0f6d2b1a595ef1434b5b58fa5bdb11e5203c25
   dest: nuget-sources
 - type: file
-  url: https://api.nuget.org/v3-flatcontainer/nlayer.naudiosupport/1.0.0/nlayer.naudiosupport.1.0.0.nupkg
-  dest-filename: NLayer.NAudioSupport.1.0.0.nupkg
-  sha512: 13d4b30243573883abb1632fd24ea6140f852f67ffa00624084369e16ee849be273b9f70eff692146538b2975cb2035b5956df5210738fe9b232647fed5a0ed0
+  url: https://api.nuget.org/v3-flatcontainer/naudio.wasapi/2.0.0/naudio.wasapi.2.0.0.nupkg
+  dest-filename: NAudio.Wasapi.2.0.0.nupkg
+  sha512: 2907c2c776f83dfb96892b3be6de033f0de41be6ca02708130ef2aef9d1a15e27da61c776d9335ad0f27132359a27692aabce049d9db693823a1b6d07450e126
   dest: nuget-sources
 - type: file
-  url: https://api.nuget.org/v3-flatcontainer/nvorbis/0.10.1/nvorbis.0.10.1.nupkg
-  dest-filename: NVorbis.0.10.1.nupkg
-  sha512: 2419cfc9d537846f7393f83232a8e5c4b84ff3c0fefcb3162911d59092a0dda39b8f60c65bbc4623fc9ff9eca459e168de4df1c534e1a59b256c38072aa4df57
+  url: https://api.nuget.org/v3-flatcontainer/naudio.winforms/2.0.0/naudio.winforms.2.0.0.nupkg
+  dest-filename: NAudio.WinForms.2.0.0.nupkg
+  sha512: 30f1fcc2a5fb0ffb6c3c5f8fc6f8691a8b1a8523ad79c945abecbdd5276fdd269976fdd515f34d1e7e723cd72bdfe2562a8879b854ce9debb7284cacf6a0b7c3
+  dest: nuget-sources
+- type: file
+  url: https://api.nuget.org/v3-flatcontainer/naudio.winmm/2.0.0/naudio.winmm.2.0.0.nupkg
+  dest-filename: NAudio.WinMM.2.0.0.nupkg
+  sha512: 72d0ee1f6f2dcc22973c31203e467273ee63315862b44a847d6e6188aa73af340b689147e57ce280e47e931b81980ae9b3adac8776d6f9edcbda28a3a807534a
+  dest: nuget-sources
+- type: file
+  url: https://api.nuget.org/v3-flatcontainer/nlayer/2.0.1/nlayer.2.0.1.nupkg
+  dest-filename: NLayer.2.0.1.nupkg
+  sha512: f48dece63cc44761cdfe94b6da4a597073c3365218210782ea834450d31d19385b6535152af6db62771f458c49100b192d82cca333d5bbefb89371f84b0398a8
+  dest: nuget-sources
+- type: file
+  url: https://api.nuget.org/v3-flatcontainer/nlayer.naudiosupport/2.0.1/nlayer.naudiosupport.2.0.1.nupkg
+  dest-filename: NLayer.NAudioSupport.2.0.1.nupkg
+  sha512: ea55f68833c0eb60bd767ca7e6683f171b33fe9fffef7ff2632c25855a3f0d2509c171053a2cba0eaeff50b00e1c0ac9e02d94e61b5fa69c06c061bb43e74f66
+  dest: nuget-sources
+- type: file
+  url: https://api.nuget.org/v3-flatcontainer/nvorbis/0.10.5/nvorbis.0.10.5.nupkg
+  dest-filename: NVorbis.0.10.5.nupkg
+  sha512: 385aa2bb177f9ba834ffe4cc6aeac1ef226f56ec76c3a5be4560697e08233800a6fbd623e724203f4f4fd124f9adb04e0a781ce83ef39b56fde22197e4b6cf7a
   dest: nuget-sources
 - type: file
   url: https://api.nuget.org/v3-flatcontainer/newtonsoft.json/13.0.4/newtonsoft.json.13.0.4.nupkg
@@ -90,9 +135,9 @@
   sha512: 6d1faff84ff227a83b195dae5f0d8ead44a36187e32e438b0bc243e24092db79ac2daa672ad7493c1240ef97f01c7fbe12b21f7de22acd82132f102eaf82805c
   dest: nuget-sources
 - type: file
-  url: https://api.nuget.org/v3-flatcontainer/opentk-openbve/1.0.4/opentk-openbve.1.0.4.nupkg
-  dest-filename: OpenTK-OpenBVE.1.0.4.nupkg
-  sha512: 6da3bd99b787402319985228d147e26eb90e75a2476acd730e9c2f1f8bc7dbb7897cf11ed3950c0253677465bbd7c3757fe9fd763d361359cf3dae161f2e75eb
+  url: https://api.nuget.org/v3-flatcontainer/opentk-openbve/1.0.7/opentk-openbve.1.0.7.nupkg
+  dest-filename: OpenTK-OpenBVE.1.0.7.nupkg
+  sha512: ad333c4638b60a014c1d7c5d879d90298f96eda0a7b2387c6a8ffb361dacbd4c4b17dd0a8d66071d671f3428da35289b0f621a37246a825ae03e38da0bd1fced
   dest: nuget-sources
 - type: file
   url: https://api.nuget.org/v3-flatcontainer/opentk.glcontrol-openbve/1.0.1/opentk.glcontrol-openbve.1.0.1.nupkg
@@ -163,6 +208,16 @@
   url: https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/6.1.2/system.runtime.compilerservices.unsafe.6.1.2.nupkg
   dest-filename: System.Runtime.CompilerServices.Unsafe.6.1.2.nupkg
   sha512: b76697589641900911ad33a7c37d4e0442ca1154830f962f0b73b975768716c47aebf9d14ca9b5cb722ae8dc05239bb92252ab5987dd6a7eba57e18a2a463c85
+  dest: nuget-sources
+- type: file
+  url: https://api.nuget.org/v3-flatcontainer/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg
+  dest-filename: System.Security.AccessControl.4.7.0.nupkg
+  sha512: 464255881cc1ad9a0df09eaa1ea926c75df4196537a1c5adb180665ec21f8da627d00c778601ee05894ee745664374a38f0369778c98b29cbe236aa70deab5ae
+  dest: nuget-sources
+- type: file
+  url: https://api.nuget.org/v3-flatcontainer/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg
+  dest-filename: System.Security.Principal.Windows.4.7.0.nupkg
+  sha512: f30a16d34c8792db60b2240363a8b200cab28bc2c7441405cf19abf71dbf5fb0bf3bd1cbec4d9b5eb4cf73ec482e4505d08d80afdef00b2b4b3bb56d6d4cae96
   dest: nuget-sources
 - type: file
   url: https://api.nuget.org/v3-flatcontainer/system.text.encoding.codepages/8.0.0/system.text.encoding.codepages.8.0.0.nupkg
