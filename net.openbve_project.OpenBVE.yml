@@ -24,6 +24,8 @@ modules:
       - /usr/lib/sdk/mono6/install.sh
       - cp -r /usr/lib/sdk/mono6/lib/mono/gac/{Microsoft.CSharp,System.Drawing,System.Windows.Forms,System.Xml.Linq}
         /app/lib/mono/gac/
+      - install -d /app/lib/mono/4.5/Facades
+      - cp /usr/lib/sdk/mono6/lib/mono/4.5/Facades/netstandard.dll /app/lib/mono/4.5/Facades
 
   - name: libgdiplus
     sources:
